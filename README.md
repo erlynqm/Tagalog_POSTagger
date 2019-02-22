@@ -7,8 +7,9 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
 
 #Python Packages required
 
-*nltk (https://www.nltk.org/install.html)
-*sklearn-crfsuite (https://pypi.org/project/sklearn-crfsuite/)
+nltk (https://www.nltk.org/install.html)
+
+sklearn-crfsuite (https://pypi.org/project/sklearn-crfsuite/)
 
 
 
