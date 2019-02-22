@@ -1,8 +1,11 @@
 # Tagalog_POSTagger
 
-The original work made use of (32) fine-grained tags to capture semantic information of verbs.
-[Factors Affecting Part-of-Speech Tagging for Tagalog (2009)] (http://aclweb.org/anthology/Y09-2039)
-
+  The original work made use of (32) fine-grained tags to capture semantic information of verbs.
+  
+  Factors Affecting Part-of-Speech Tagging for Tagalog (2009)
+  E. Manguilimotan and Y. Matsumoto
+  Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation 
+  (http://aclweb.org/anthology/Y09-2039)
 
 However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
 
@@ -40,5 +43,5 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
  
 
 ## Other Works
-
-   Dependency-based Analysis for Tagalog Sentences (2011)[ http://aclweb.org/anthology/Y11-1036 ]
+   
+   Manguilimotan, E. and Matsumoto, Y. (2011).Dependency-based Analysis for Tagalog Sentences. [ http://aclweb.org/anthology/Y11-1036 ]
