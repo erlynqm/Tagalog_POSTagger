@@ -4,10 +4,10 @@
   ```
    Factors Affecting Part-of-Speech Tagging for Tagalog (2009)
    E. Manguilimotan and Y. Matsumoto
-    Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation 
-  (http://aclweb.org/anthology/Y09-2039)
+   Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation, Hong Kong 
   ```
-However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
+  (http://aclweb.org/anthology/Y09-2039)
+  However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
 
 ## Python Packages required
 
