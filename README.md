@@ -7,11 +7,19 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
 
 #Python Packages required
 
-nltk (https://www.nltk.org/install.html)
+  nltk (https://www.nltk.org/install.html)
 
-sklearn-crfsuite (https://pypi.org/project/sklearn-crfsuite/)
+  sklearn-crfsuite (https://pypi.org/project/sklearn-crfsuite/)
+
+#Stemmer
 
 
+#Features
 
+
+#Train a New Model
+
+
+#Tag sentence
 
 
