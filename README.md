@@ -6,7 +6,8 @@
    E. Manguilimotan and Y. Matsumoto
    Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation, Hong Kong 
   ```
-  (http://aclweb.org/anthology/Y09-2039)
+  http://aclweb.org/anthology/Y09-2039
+ 
   However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
 
 ## Python Packages required
