@@ -5,6 +5,12 @@ original paper:   http://aclweb.org/anthology/Y09-2039
 
 However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
 
+#Python Packages required
+
+*nltk (https://www.nltk.org/install.html)
+*sklearn-crfsuite (https://pypi.org/project/sklearn-crfsuite/)
+
+
 
 
 
