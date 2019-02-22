@@ -44,5 +44,9 @@
  
 
 ## Other Works
-   
-   Manguilimotan, E. and Matsumoto, Y. (2011).Dependency-based Analysis for Tagalog Sentences. [ http://aclweb.org/anthology/Y11-1036 ]
+   ```
+   Dependency-based Analysis for Tagalog Sentences (2011)
+   E. Manguilimotan and Y. Matsumoto 
+   Proceedings of the 25th Pacific Asia Conference on Language, Information and Computation, Singapore 
+   ```
+   [ http://aclweb.org/anthology/Y11-1036 ]
