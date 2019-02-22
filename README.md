@@ -1,12 +1,12 @@
 # Tagalog_POSTagger
 
-  The original work made use of (32) fine-grained tags to capture semantic information of verbs.
-  
-  Factors Affecting Part-of-Speech Tagging for Tagalog (2009)
-  E. Manguilimotan and Y. Matsumoto
-  Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation 
+   The original work made use of (32) fine-grained tags to capture semantic information of verbs.
+  ```
+   Factors Affecting Part-of-Speech Tagging for Tagalog (2009)
+   E. Manguilimotan and Y. Matsumoto
+    Proceedings of the 23rd Pacific Asia Conference on Language, Information and Computation 
   (http://aclweb.org/anthology/Y09-2039)
-
+  ```
 However, this Tagalog POS tagger makes use of the universal tagset. (https://universaldependencies.org/u/pos/)
 
 ## Python Packages required
