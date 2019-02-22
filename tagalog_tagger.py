@@ -1,11 +1,10 @@
-##Erlyn Manguilimotan
-##Computational Linguistics (NAIST)
 import nltk
 from nltk.tag.util import untag
 from Tagalog import tagalogdata 
 from Tagalog import tagalog_stemmer
 from sklearn_crfsuite import metrics
 from sklearn_crfsuite import CRF
+import sklearn
 import pickle
 import os
 import argparse
@@ -53,7 +52,17 @@ def transform_to_dataset(tagged_sentences):
  
     return X, y
 
-
+def token_accuracy(y_test,y_predict):
+    correct=0
+    total_tokens=0
+    for test,pred in zip(y_test,y_predict):
+        for t, p in zip(test,pred):
+            if t==p:   
+               correct+=1
+            total_tokens+=1
+    acc= (correct/total_tokens)
+    return acc  
+   
 def train_model(tagged_sentences):
      model_filename='Model/tagalog_pos_tagger.model'
      model=CRF()
@@ -67,7 +76,11 @@ def train_model(tagged_sentences):
      model.fit(X_train,y_train)
      print('saving pos tagger ...')
      pickle.dump(model,open(model_filename,"wb"))
-    
+     y_predict = model.predict(X_test)
+     print(y_predict[0])
+     print(y_test[0])
+     acc = token_accuracy(y_test,y_predict)
+     print("Accuracy: ", acc)
      return model
 
 def argument():
@@ -94,8 +107,10 @@ if __name__=='__main__':
          model_name=args.model
          if os.path.exists(model_name):
             model=pickle.load(open(model_name,"rb"))
-            sentence = args.sent.split()
+
+            sentence = nltk.word_tokenize(args.sent)
             print(pos_tag(sentence,model))
+
          else:
             print('Model', model_name,'does not exist')
 

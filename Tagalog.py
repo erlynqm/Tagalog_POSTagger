@@ -1,8 +1,6 @@
 ##Erlyn Manguilimotan
-##Computational Linguistics (NAIST)
 import nltk
 import re
-
 
 class tagalogdata():
       def __init__(self, datafile):
