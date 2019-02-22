@@ -43,7 +43,7 @@
    [('Ang', 'DET'), ('bata', 'NOUN'), ('ay', 'X'), ('naglalaro', 'VERB'), ('sa', 'ADP'), ('daan', 'NOUN'), ('.', '.')]
  
 
-## Other Works
+## Other Work
    ```
    Dependency-based Analysis for Tagalog Sentences (2011)
    E. Manguilimotan and Y. Matsumoto 
