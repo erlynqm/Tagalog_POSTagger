@@ -1,3 +1,5 @@
+##Erlyn Manguilimotan
+##Computational Linguistics (NAIST)
 import nltk
 from nltk.tag.util import untag
 from Tagalog import tagalogdata 

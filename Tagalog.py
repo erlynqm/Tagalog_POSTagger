@@ -1,3 +1,5 @@
+##Erlyn Manguilimotan
+##Computational Linguistics (NAIST)
 import nltk
 import re
 
