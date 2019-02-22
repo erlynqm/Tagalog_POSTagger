@@ -26,16 +26,19 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
 
 ## Train a New Model
   
-  $ python tagalog_tagger.py --mode "train" --model <modelname> --tagalogdata <trainingdata>
+   $ python tagalog_tagger.py --mode "train" --model <modelname> --tagalogdata <trainingdata>
   
-  Example:
+   Example:
   
-  $ python tagalog_tagger.py --mode "train" --model Model/tagalog_pos_tagger.model --tagalogdata Data/tagalog_nltk_tagged.txt
+   $ python tagalog_tagger.py --mode "train" --model Model/tagalog_pos_tagger.model --tagalogdata Data/tagalog_nltk_tagged.txt
 
    
 ## Tag sentence
   
-  $ python tagalog_tagger.py --mode "tag" --sent "Ang bata ay naglalaro sa daan."
-  [('Ang', 'DET'), ('bata', 'NOUN'), ('ay', 'X'), ('naglalaro', 'VERB'), ('sa', 'ADP'), ('daan', 'NOUN'), ('.', '.')]
+   $ python tagalog_tagger.py --mode "tag" --sent "Ang bata ay naglalaro sa daan."
+   [('Ang', 'DET'), ('bata', 'NOUN'), ('ay', 'X'), ('naglalaro', 'VERB'), ('sa', 'ADP'), ('daan', 'NOUN'), ('.', '.')]
  
 
+## Other Works
+
+   Dependency-based Analysis for Tagalog Sentences (2011)[ http://aclweb.org/anthology/Y11-1036 ]
