@@ -23,7 +23,7 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
    The features are described in the features method in tagalog_tagger.py
    **root, prefix, infix, suffix, reduplication** are important in identifying the POS tag of a tagalog word.
 
-# Train a New Model
+## Train a New Model
   
   $ python tagalog_tagger.py --mode "train" --model <modelname> --tagalogdata <trainingdata>
   
@@ -32,7 +32,7 @@ However, this Tagalog POS tagger makes use of the universal tagset. (https://uni
   $ python tagalog_tagger.py --mode "train" --model Model/tagalog_pos_tagger.model --tagalogdata Data/tagalog_nltk_tagged.txt
 
    
-# Tag sentence
+## Tag sentence
   
   $ python tagalog_tagger.py --mode "tag" --sent "Ang bata ay naglalaro sa daan."
   [('Ang', 'DET'), ('bata', 'NOUN'), ('ay', 'X'), ('naglalaro', 'VERB'), ('sa', 'ADP'), ('daan', 'NOUN'), ('.', '.')]
